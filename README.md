@@ -1,18 +1,7 @@
-# Adium Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-adium.png)](https://travis-ci.org/boxen/puppet-adium)
+# Adium Puppet Module for Boxen
 
-Install [Adium](http://adium.im/), an open source multi-protocol instant messaging client for Mac OS X.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include adium
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
